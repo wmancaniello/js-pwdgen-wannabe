@@ -24,7 +24,7 @@ console.log(randomNumber, typeof randomNumber);
 
 
 // CONCATENAZIONE A CUI DO UNA COSTANTE
-const newPassword = `La tua nuova password sarà: ${userName}${userSurname}${favoriteColor}${randomNumber}`; //string
+const newPassword = `${userName}${userSurname}${favoriteColor}${randomNumber}`; //string
 console.log(newPassword, typeof newPassword);
 
 // STAMPA DELLA PASSWORD GENERATA IN PAGINA
